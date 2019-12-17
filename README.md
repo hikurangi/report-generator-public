@@ -36,6 +36,9 @@
 - [ ] add third level paragraph
   - [ ] select from options
 
+### Read
+- [ ] Toggle showing paragraph options
+
 ### add basic templating
 - [ ] populate from filesystem (nested folders, individual docs for paragraphs?)
 - [ ] user input paragraphs
