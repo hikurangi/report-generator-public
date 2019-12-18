@@ -34,6 +34,9 @@
 - [ ] add third level paragraph
   - [ ] select from options
 
+### Read
+- [ ] Toggle showing paragraph options
+
 ### add basic templating
 - [ ] populate from filesystem (nested folders, individual docs for paragraphs?)
 - [ ] user input paragraphs
@@ -41,7 +44,6 @@
 ### Output word `.docx`
 - [ ] just paragraphs
 - [ ] interpolated data
-
 Reportee:
   - [ ] name
   - [ ] age
@@ -93,7 +95,6 @@ Reporter can fill out the report by:
 ## Tranche 2
 
 ### Reporter and reportee data
-- [ ] Reporter can save their progress in the report
 - [ ] Reporter can add information about themselves for the report (Name, Role, Phone number, Email, Website, Signature image)
 - [ ] Reporter can add information about the reportee used throughout the report (Name, Gender, DoB, Age at assessment, School and Year, Date of assessment(s), Reason for referral, Assessed by, Date of report). Aspects of this, gender, for example, will be used to populate the report appropriately with pronouns.
 
