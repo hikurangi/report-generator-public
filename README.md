@@ -2,12 +2,10 @@
 
 **TODO:** put all of this in a github project
 
-## NFR
+## NFR + MVP
 - [ ] get devtools working somehow
 - [ ] Windows 10 / WSL browser bug
 - [ ] test on macos
-
-## MVP
 
 ### Basics
 - [ ] test `electron-store`
@@ -43,9 +41,65 @@
 ### Output word `.docx`
 - [ ] just paragraphs
 - [ ] interpolated data
-  - [ ] reportee name
-  - [ ] reportee age
-  - [ ] reportee gender
-  - [ ] reporter name
-  - [ ] reporter contacts
+
+Reportee:
+  - [ ] name
+  - [ ] age
+  - [ ] gender
+  - [ ] DoB
+  - [ ] Age at assessment
+  - [ ] School
+  - [ ] School year
+  - [ ] Date of assessment(s)
+  - [ ] Reason for referral
+  - [ ] Assessed by (reporter)
+  - [ ] Date of report
+
+Reporter:
+  - [ ] Name
+  - [ ] Role
+  - [ ] Phone number
+  - [ ] Email
+  - [ ] Website
+
 - [ ] formatted headers and footers
+
+## Tranche 1 - 'MVP'
+
+### Reporter and reportee data
+- [ ] Reporter can save their progress in the report.
+- [ ] Reporter can delete a report.
+- [ ] Reporter can add information about themselves for the report (Name, Role, Phone number, Email, Website).
+- [ ] Reporter can add information about the reportee used throughout the report (Name, Gender, DoB, Age at assessment, School and Year, Date of assessment(s), Reason for referral, Assessed by, Date of report). Aspects of this, gender, for example, will be used to populate the report appropriately with pronouns.
+
+### Report Template
+- [ ] User can add a report and nested options by adding a `.docx` Word doc with the appropriate tags.
+
+### Create a report
+- [ ] Reporter can see notes relating to each section
+Reporter can fill out the report by:
+- [ ] adding a top level paragraph
+  - [ ] selecting from options
+- [ ] add second level paragraph
+  - [ ] selecting from options
+- [ ] add third level paragraph
+  - [ ] selecting from options
+
+- [ ] a `.docx` report is generated from the results.
+
+### Collaboration
+- [ ] Reporters can collaborate on output `.docx` only, once it is finished.
+
+## Tranche 2
+
+### Reporter and reportee data
+- [ ] Reporter can save their progress in the report
+- [ ] Reporter can add information about themselves for the report (Name, Role, Phone number, Email, Website, Signature image)
+- [ ] Reporter can add information about the reportee used throughout the report (Name, Gender, DoB, Age at assessment, School and Year, Date of assessment(s), Reason for referral, Assessed by, Date of report). Aspects of this, gender, for example, will be used to populate the report appropriately with pronouns.
+
+### Report Template
+- [ ] Reporter can add extra template paragraphs with formatting directly to the app.
+- [ ] Reporter can re-order segments of data before finishing + publishing it.
+
+### Collaboration
+- [ ] Reporters can share and collaborate on the report in the app itself.
