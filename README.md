@@ -10,6 +10,7 @@
 ### Basics
 - [ ] test `electron-store`
 - [ ] build app successfully
+- [ ] add Skeleton's Raleway font locally (or replace with something cooler)
 
 ### Routes
 - [x] `/`

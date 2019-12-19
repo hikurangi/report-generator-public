@@ -13,7 +13,8 @@ let routes = [
 let make = () => {
   let url = ReasonReactRouter.useUrl();
 
-  <div>
+  <div className="container">
+    <div className="row">
     <nav>
       {routes
        |> List.mapi((idx, route) =>
@@ -34,5 +35,6 @@ let make = () => {
        | _ => <h1> {React.string("Page not found")} </h1>
        }}
     </main>
+    </div>
   </div>;
 };
