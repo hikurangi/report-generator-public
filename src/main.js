@@ -9,6 +9,8 @@ const debug = require('electron-debug')
 let mainWindow
 debug()
 
+const LOCALHOST = 'http://172.21.249.67:3000/' // 'http://localhost:3000'
+
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
@@ -21,7 +23,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL('http://localhost:3000')
+  mainWindow.loadURL(LOCALHOST)
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()

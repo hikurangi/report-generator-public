@@ -12,7 +12,9 @@
 - [ ] build app successfully
 
 ### Routes
-- [ ] `/`
+- [x] `/`
+- [x] `/reports`
+- [x] `/reports/new`
 - [ ] `/reports/:reportId`
 - [ ] `/profiles/:reportId`
 
