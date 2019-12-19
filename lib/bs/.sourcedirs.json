@@ -1,1 +1,0 @@
-{ "dirs" : [ "src" , "src/client" , "src/config" , "src/report" ] , "pkgs" : [ [ "bs-platform" , "/home/hikurangi/Workspace/report-generator/node_modules/bs-platform" ] , [ "reason-react" , "/home/hikurangi/Workspace/report-generator/node_modules/reason-react" ] ] , "generated" : [] }

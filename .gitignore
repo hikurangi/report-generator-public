@@ -5,7 +5,11 @@
 /.pnp
 .pnp.js
 
+# reason/bucklescript
+/lib
 *.bs.js
+.bsb.lock
+.merlin
 
 # testing
 /coverage
