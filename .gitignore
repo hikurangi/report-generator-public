@@ -11,6 +11,9 @@
 .bsb.lock
 .merlin
 
+# Windows nonsense
+*:Zone.Identifier
+
 # testing
 /coverage
 
