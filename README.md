@@ -71,6 +71,9 @@ Reporter:
 
 ## Tranche 1 - 'MVP'
 
+### General
+- [ ] Get a list of pronouns. `$$REPORTEE_NAME$$`, `$$REPORTER_NAME` etc etc
+
 ### Reporter and reportee data
 - [ ] Reporter can save their progress in the report.
 - [ ] Reporter can delete a report.
