@@ -12,6 +12,11 @@
 - [ ] build app successfully
 - [ ] add Skeleton's Raleway font locally (or replace with something cooler)
 
+## General
+- [ ] Context menu - copy + paste!
+- [ ] Remove file menu etc
+- [ ] adding signature?
+
 ### Routes
 - [x] `/`
 - [x] `/reports`

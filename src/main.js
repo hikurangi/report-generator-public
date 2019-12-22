@@ -9,7 +9,7 @@ const debug = require('electron-debug')
 let mainWindow
 debug()
 
-const LOCALHOST = 'http://172.21.249.67:3000/' // 'http://localhost:3000'
+const LOCALHOST = 'http://172.23.177.153:3000' // 'http://localhost:3000'
 
 function createWindow () {
   // Create the browser window.

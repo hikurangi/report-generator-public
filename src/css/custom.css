@@ -1,0 +1,19 @@
+.header {
+  margin: 50px auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+nav button:not(:last-child) {
+  margin-right: 10px;
+}

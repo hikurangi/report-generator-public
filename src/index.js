@@ -1,4 +1,8 @@
 import './index.css'
+import './css/custom.css'
+import './css/skeleton.css'
+import './css/normalize.css'
+
 import React              from 'react'
 import ReactDOM           from 'react-dom'
 import { make as App }    from './client/App.bs'
