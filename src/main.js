@@ -25,6 +25,9 @@ function createWindow () {
   // and load the index.html of the app.
   mainWindow.loadURL(LOCALHOST)
 
+  // hide file menu in windows and linux
+  mainWindow.setMenu(null)
+
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
 

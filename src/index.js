@@ -1,7 +1,6 @@
 import './index.css'
+// move custom.css to reasonml solution
 import './css/custom.css'
-import './css/skeleton.css'
-import './css/normalize.css'
 
 import React              from 'react'
 import ReactDOM           from 'react-dom'

@@ -1,11 +1,11 @@
 /* slim down! */
 [@bs.val] external document: Dom.document = "document";
 [@bs.set] external setTitleDom: (Dom.document, string) => unit = "title";
-[@bs.get] external getTitleDom: Dom.document => string = "title";
+// [@bs.get] external getTitleDom: Dom.document => string = "title";
 
-let getTitle = () => getTitleDom(document);
+// let getTitle = () => getTitleDom(document);
 let setTitle = setTitleDom(document);
-let unsetTitle = () => setTitle("");
+// let unsetTitle = () => setTitle("");
 
 type route = {
   path: string,
@@ -20,10 +20,13 @@ let routes = [
 
 [@react.component]
 let make = () => {
+  // let url = ReasonReactRouter.useUrl();
+
   <nav className="twelve rows">
     {routes
      |> List.mapi((idx, route) =>
           <button
+            className=""
             key={route.path ++ string_of_int(idx)}
             onClick={_ => {
               ReasonReactRouter.replace(route.path);

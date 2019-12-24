@@ -19,11 +19,9 @@
   "namespace": true,
   "bs-dependencies": [
     "reason-react",
-    "bs-reform",
-    "reschema"
+    "re-formality"
   ],
   "ppx-flags": [
-    "lenses-ppx/ppx"
   ],
   "refmt": 3
 }
