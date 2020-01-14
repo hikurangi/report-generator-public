@@ -1,15 +1,13 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
-// const path = require('path')
-const debug = require('electron-debug')
-
-
+// const path              = require('path')
+const debug                = require('electron-debug')
+const HOST_ADDRESS         = require('../config/network-interface')
+console.info({HOST_ADDRESS})
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 debug()
-
-const LOCALHOST = 'http://172.23.177.153:3000' // 'http://localhost:3000'
 
 function createWindow () {
   // Create the browser window.
@@ -23,7 +21,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL(LOCALHOST)
+  mainWindow.loadURL(HOST_ADDRESS)
 
   // hide file menu in windows and linux
   mainWindow.setMenu(null)

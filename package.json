@@ -26,7 +26,6 @@
     "cra:test": "react-scripts test",
     "cra:eject": "react-scripts eject",
     "reason:start": "bsb -make-world -clean-world -w",
-    "electron:start": "electron .",
     "install-wsl": "./install-wsl.sh"
   },
   "eslintConfig": {

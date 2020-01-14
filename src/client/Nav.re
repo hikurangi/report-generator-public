@@ -6,6 +6,17 @@
 // let getTitle = () => getTitleDom(document);
 let setTitle = setTitleDom(document);
 // let unsetTitle = () => setTitle("");
+let navStyle =
+  ReactDOMRe.Style.make(
+    ~display="flex",
+    ~flexDirection="row",
+    ~justifyContent="center",
+    ~alignItems="center",
+    (),
+  );
+
+let navButton =
+  ReactDOMRe.Style.make(~marginTop="5px", ~marginBottom="5px", ());
 
 type route = {
   path: string,
@@ -21,12 +32,11 @@ let routes = [
 [@react.component]
 let make = () => {
   // let url = ReasonReactRouter.useUrl();
-
-  <nav className="twelve rows">
+  <nav className="twelve rows" style=navStyle>
     {routes
      |> List.mapi((idx, route) =>
           <button
-            className=""
+            style=navButton
             key={route.path ++ string_of_int(idx)}
             onClick={_ => {
               ReasonReactRouter.replace(route.path);
