@@ -2,7 +2,7 @@
 const {app, BrowserWindow} = require('electron')
 // const path              = require('path')
 const debug                = require('electron-debug')
-const HOST_ADDRESS         = require('../config/network-interface')
+const HOST_ADDRESS         = 'https://localhost:3000' // = require('../config/network-interface')
 console.info({HOST_ADDRESS})
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
