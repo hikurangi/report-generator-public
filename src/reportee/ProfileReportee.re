@@ -3,11 +3,13 @@ module ReporteeProfileForm = {
   open Formality;
   type field =
     | Name
-    | DateOfBirth;
+    | DateOfBirth
+    | AgeAtAssessment;
 
   type state = {
     name: string,
     dateOfBirth: int64,
+    ageAtAssessment: int,
   };
 
   type validator = {
@@ -46,6 +48,20 @@ module ReporteeProfileForm = {
     };
   };
 
+    module AgeOfAssessmentField = {
+    let update = (state, value) => {...state, ageAtAssessment: value};
+    let validator = {
+      field: AgeAtAssessment,
+      strategy: Strategy.OnSubmit,
+      dependents: None,
+      validate: state =>
+        switch (state.ageAtAssessment) {
+        | f when f == 0 => Error("Add the age of the applicant at the time fo assessment")
+        | _ => Ok(Valid)
+        },
+    };
+  };
+
   let validators = [NameField.validator, DateOfBirthField.validator];
 };
 
@@ -55,10 +71,12 @@ module ReporteeProfileFormHook = Formality.Make(ReporteeProfileForm);
 let make = () => {
   let form =
     ReporteeProfileFormHook.useForm(
-      ~initialState=ReporteeProfileForm.{name: "", dateOfBirth: Int64.zero},
+      ~initialState=ReporteeProfileForm.{name: "", dateOfBirth: Int64.zero, ageAtAssessment: 0},
       ~onSubmit=(state, _form) => {
       Js.log2("form submitting", state)
     });
+
+  Js.log2("Form state", form.state);
 
   <section>
     <h2> {React.string("Reportee Profile")} </h2>
