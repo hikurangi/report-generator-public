@@ -80,7 +80,7 @@ Reporter:
 - [ ] Get a list of pronouns. `$$REPORTEE_NAME$$`, `$$REPORTER_NAME` etc etc
 
 ### UX Goodness
-- [ ] Active route button state
+- [ ] Active route button state - use existing Skeleton.js style.
 - [ ] Use `bs-css` or similar css-in-js (bs) solution instead of `src/css/custom.css`
 
 ### Reporter and reportee data
