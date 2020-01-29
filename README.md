@@ -3,8 +3,9 @@
 **TODO:** put all of this in a github project
 
 ## NFR + MVP
+- [ ] add a `webpack` hook for building bucklescript before bundling.
 - [ ] get devtools working somehow
-- [ ] Windows 10 / WSL browser bug
+- [ ] Windows 10 / WSL browser bug `sindresorhus/open`
 - [ ] test on macos
 
 ### Basics
