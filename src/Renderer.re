@@ -25,6 +25,11 @@
  *  });
  * ```
  */
+%raw
+{|
+import './css/skeleton.css';
+import './css/normalize.css';
+import './css/index.css';
+|};
 
-[%%raw {|import './index.css'|}];
 ReactDOMRe.renderToElementWithId(<App />, "root");
