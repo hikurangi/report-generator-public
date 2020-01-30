@@ -1,3 +1,4 @@
+open Utils;
 /**
  * This file will automatically be loaded by webpack and run in the "renderer" context.
  * To learn more about the differences between the "main" and the "renderer" context in
@@ -25,11 +26,9 @@
  *  });
  * ```
  */
-%raw
-{|
-import './css/skeleton.css';
-import './css/normalize.css';
-import './css/index.css';
-|};
+
+importSideEffect("./css/skeleton.css");
+importSideEffect("./css/normalize.css");
+importSideEffect("./css/index.css");
 
 ReactDOMRe.renderToElementWithId(<App />, "root");
