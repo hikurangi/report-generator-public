@@ -12,6 +12,19 @@ lerna-debug.log*
 .bsb.lock
 .merlin
 
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
 # Windows nonsense
 *:Zone.Identifier
 
