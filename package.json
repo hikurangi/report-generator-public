@@ -17,51 +17,6 @@
   "keywords": [],
   "author": "hikurangi",
   "license": "MIT",
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "report"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ],
-      "plugins": [
-        [
-          "@electron-forge/plugin-webpack",
-          {
-            "mainConfig": "./webpack.main.config.js",
-            "renderer": {
-              "config": "./webpack.renderer.config.js",
-              "entryPoints": [
-                {
-                  "html": "./src/index.html",
-                  "js": "./src/Renderer.bs.js",
-                  "name": "main_window"
-                }
-              ]
-            }
-          }
-        ]
-      ]
-    }
-  },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.47",
     "@electron-forge/maker-deb": "^6.0.0-beta.47",
@@ -70,16 +25,14 @@
     "@electron-forge/maker-zip": "^6.0.0-beta.47",
     "@electron-forge/plugin-webpack": "^6.0.0-beta.47",
     "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
-    "bs-platform": "^7.0.1",
     "css-loader": "^3.4.2",
-    "electron": "7.1.10",
+    "electron": "^8.0.0",
     "node-loader": "^0.6.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.2.1"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "re-formality": "^3.2.0",
-    "react": "^16.12.0",
-    "reason-react": "^0.7.0"
+    "react": "^16.12.0"
   }
 }
