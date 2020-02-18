@@ -1,6 +1,15 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import App from './App'
+import 'typeface-raleway'
+
+import './css/index.css'
+import './css/normalize.css'
+import './css/skeleton.css'
+
+import * as React    from 'react'
+import * as ReactDOM from 'react-dom'
+
+import App           from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 /**
  * This file will automatically be loaded by webpack and run in the "renderer" context.
@@ -29,13 +38,3 @@ import App from './App'
  *  });
  * ```
  */
-
-import "./css/index.css";
-import "./css/normalize.css";
-import "./css/skeleton.css";
-
-console.log(
-  '👋 This message is being logged by "renderer.js", included via webpack'
-);
-
-ReactDOM.render(<App />, document.getElementById("root"));

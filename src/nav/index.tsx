@@ -1,6 +1,6 @@
-import * as React from "react";
-import CSS from "csstype";
-import { Link } from "react-router-dom";
+import * as React from "react"
+import CSS        from "csstype"
+import { Link }   from "react-router-dom"
 
 const navStyle: CSS.Properties = {
   display: "flex",
@@ -13,7 +13,6 @@ const Nav = (): JSX.Element => (
   <nav className="twelve rows" style={navStyle}>
     <Link to="/">Home</Link>
     <Link to="/reports">Reports</Link>
-    <Link to="/reports/new">New Report</Link>
   </nav>
 );
 
