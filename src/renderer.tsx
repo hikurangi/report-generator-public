@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import App from './App'
 
 /**
  * This file will automatically be loaded by webpack and run in the "renderer" context.
@@ -36,8 +37,5 @@ import "./css/skeleton.css";
 console.log(
   '👋 This message is being logged by "renderer.js", included via webpack'
 );
-
-
-const App = (): JSX.Element => <h1>test</h1>;
 
 ReactDOM.render(<App />, document.getElementById("root"));
