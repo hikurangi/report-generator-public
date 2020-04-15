@@ -1,0 +1,187 @@
+[
+  {
+    "id": "c692548b-a1a5-490f-8a2d-8d07706128ae",
+    "title": "Reading",
+    "body": "{{REPORTEE_NAME}}’s reading was assessed in a number of ways, including {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} early reading skills (the foundation knowledge needed to support the reading process), reading individual words (both real words and pseudo-words that follow the pattern of English), reading a passage of text, and {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reads.",
+    "sections": [
+      {
+        "id": "a0f2d065-6c1a-4bc3-81f2-3854c8dfb28d",
+        "title": "All Good",
+        "body": "Across all these measures, {{REPORTEE_NAME}} scored in the average range or above. The foundation skills for reading appear established, and {{THIRD_SINGULAR_MASCULINE_SUBJECT}} is able to apply those skills to read familiar words, and words {{THIRD_SINGULAR_MASCULINE_SUBJECT}} hasn’t seen before, such as those in the pseudo-word (non-word) reading subtest.",
+        "sections": [
+          {
+            "id": "5f3b5e42-09c0-4d46-a4f4-1a238e68f005",
+            "title": "Basic Reading",
+            "sections": [
+              {
+                "id": "8c89bcb0-a937-41ee-973a-ee60ecbe60ae",
+                "title": "Good",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a good number of sight-words, and once {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_MASCULINE_SUBJECT}} was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_MASCULINE_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_MASCULINE_SUBJECT}} also read at a good speed, suggesting that the reading process is relatively automatic for {{THIRD_SINGULAR_MASCULINE_OBJECT}}."
+              },
+              {
+                "id": "55eb1369-8df0-494b-a7ba-5e069e3bb2e5",
+                "title": "Generally good",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a number of sight-words, and once {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_MASCULINE_SUBJECT}} was able to sound them out, letter by letter or using familiar letter combinations (e.g. knowing that ‘tion’ is read ‘shon’). This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_MASCULINE_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_MASCULINE_SUBJECT}} also read at a good speed, suggesting that the reading process is becoming somewhat automatic for {{THIRD_SINGULAR_MASCULINE_OBJECT}}."
+              }
+            ]
+          },
+          {
+            "id": "ce3ba7bd-268a-499e-b878-d90293bfc3cb",
+            "title": "Oral Reading Fluency",
+            "sections": [
+              {
+                "id": "800949e1-a9a0-4e2e-a161-1708dd76a4ee",
+                "title": "Good",
+                "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression."
+              },
+              {
+                "id": "95f85ef1-034b-4e32-a24a-a3e0fa8e55ce",
+                "title": "Generally good",
+                "body": "Generally good body text - missing!"
+              }
+            ]
+          },
+          {
+            "id": "f6fcb8bc-37ce-495f-8dbf-830a48152be2",
+            "title": "Reading Comprehension",
+            "sections": [
+              {
+                "id": "465e7b3c-ad7b-428a-9f50-e84a86fe0dee",
+                "title": "Good",
+                "body": "Harry scored exceptionally well on the reading comprehension task.  Harry was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+              },
+              {
+                "id": "84abfa0b-dfc8-4033-bf52-daa7a25facae",
+                "title": "Generally good",
+                "body": "Harry's score on the reading comprehension task was sound. He was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+              }
+            ]
+          },
+          {
+            "id": "fdd32b1a-5a76-4a37-b460-df655cb449ca",
+            "title": "Summary",
+            "sections": [
+              {
+                "id": "8430346b-17d2-41b8-b47a-08b78a66d626",
+                "title": "Good",
+                "body": "Overall, there were therefore no concerns in relation to Harry’s reading. He can read accurately, at a reasonable speed and take meaning from written text."
+              },
+              {
+                "id": "3a991dce-e496-43f7-9fc1-0882dca99106",
+                "title": "Generally good",
+                "body": "Overall, Harry is reading at a level that should enable him to access the curriculum, in a similar way to his peers. While he would benefit from slowing down at times, to increase his accuracy, and he may find it somewhat difficult to remain engaged with a text that is not in an area of personal interest, no significant areas of concern were noted with Harry’s reading."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a832f4c7-a305-4d73-a9c8-ae75ec2687a5",
+        "title": "Mixed",
+        "body": "Harry’s results were mixed across the reading assessment, suggesting that he experiences pockets of difficulties in relation to reading.",
+        "sections": [
+          {
+            "id": "21a9595c-adbf-435e-bfb5-ab9748f73ec2",
+            "title": "Basic Reading",
+            "sections": [
+              {
+                "id": "cb5a7b0e-81fa-4e5a-a391-b53e0c460352",
+                "title": "Good",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew a good number of sight-words, and once he reached lower-frequency words, he was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though he had to rely more heavily on his decoding skills, Harry continued to manage well. He also read at a good speed, suggesting that the reading process is relatively automatic for him."
+              },
+              {
+                "id": "a36192a4-0d3e-4a09-8ce4-6b4b490b6c2f",
+                "title": "Word reading good/pseudoword bad",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew only a few sight-words, and once he reached lower-frequency words, he had to work hard to sound them out, letter by letter. OR , he began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, Harry had to rely even more heavily on his decoding skills. The slow speed at which Harry read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for Harry."
+              },
+              {
+                "id": "fad91e52-4b8a-4d4c-8099-b307f4e8a4b8",
+                "title": "Mixed",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew only a few sight-words, and once he reached lower-frequency words, he had to work hard to sound them out, letter by letter. OR , he began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, Harry had to rely even more heavily on his decoding skills. The slow speed at which Harry read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for Harry."
+              }
+            ]
+          },
+          {
+            "id": "ce3ba7bd-268a-499e-b878-d90293bfc3cb",
+            "title": "Oral Reading Fluency",
+            "sections": [
+              {
+                "id": "f697b233-eea2-4b95-9190-5d998503291e",
+                "title": "Good",
+                "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression."
+              },
+              {
+                "id": "95f85ef1-034b-4e32-a24a-a3e0fa8e55ce",
+                "title": "Bad",
+                "body": "Next, Harry’s fluency reading a piece of text was assessed. Here, his accuracy and his speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile).  Harry’s reading accuracy dropped marginally/significantly when he switched from focusing on individual words, to reading a passage of text.  The difficulty he had accurately reading individual words in isolation was exacerbated once he was reading in the context of sentences and paragraphs.",
+                "sections": [
+                  {
+                    "id": "403de481-63aa-4b04-90b1-666195cd80e2",
+                    "title": "Bad following good word reading",
+                    "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression.",
+                    "sections": [
+                      {
+                        "id": "0a9eace6-dfe2-4460-bd0d-d84f674b8cbb",
+                        "title": "Slow and stilted",
+                        "note": "Then a comment on reading style, e.g:",
+                        "body": "He diligently worked to decode word, after word, at times reading and re-reading until he had read enough words to make sense of a sentence.  Even with all that effort, his accuracy was far lower than would be expected (SS=XX/Xrd percentile) and the time it took (SS=XX/X percentile) suggests it would severely impact Harry’s ability to access learning resources in the classroom via reading, despite his intellectual capability."
+                      },
+                      {
+                        "id": "02d7cfcf-a670-4e17-8362-e86630b1f35c",
+                        "title": "Pace OK but error-ridden",
+                        "note": "OR make up your own to match circumstances",
+                        "body": "When reading a longer passage, he skipped words, replaced words and missed the ending off others.  This appeared to be a function of (attention and speed/ the effortful nature of decoding/ visual tracking difficulties).  This meant that although he read at a good pace/quickly for his age (SS=XX/Xrd percentile), his accuracy was far lower than would be expected (SS=XX/Xrd percentile).  This level of inaccuracy when reading would severely impact Harry’s ability to access learning resources in the classroom via reading, despite his intellectual capability."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "968377a3-3f30-4382-8020-81d8228c5a3b",
+                    "title": "Bad following bad word reading",
+                    "body": "Next, Harry’s fluency reading a piece of text was assessed. Here, his accuracy and his speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). Harry’s Oral Reading Accuracy score (SS=XX/XXth percentile) was similar to his Basic Reading Skills score. Having the context of a meaningful story did not improve Harry’s reading accuracy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "f6fcb8bc-37ce-495f-8dbf-830a48152be2",
+            "title": "Reading Comprehension",
+            "sections": [
+              {
+                "id": "465e7b3c-ad7b-428a-9f50-e84a86fe0dee",
+                "title": "Good",
+                "body": "Harry scored exceptionally well on the reading comprehension task.  Harry was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+              },
+              {
+                "id": "84abfa0b-dfc8-4033-bf52-daa7a25facae",
+                "title": "Generally good",
+                "body": "Harry's score on the reading comprehension task was sound. He was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+              }
+            ]
+          },
+          {
+            "id": "fdd32b1a-5a76-4a37-b460-df655cb449ca",
+            "title": "Summary",
+            "sections": [
+              {
+                "id": "8430346b-17d2-41b8-b47a-08b78a66d626",
+                "title": "Good",
+                "body": "Overall, there were therefore no concerns in relation to Harry’s reading. He can read accurately, at a reasonable speed and take meaning from written text."
+              },
+              {
+                "id": "3a991dce-e496-43f7-9fc1-0882dca99106",
+                "title": "Generally good",
+                "body": "Overall, Harry is reading at a level that should enable him to access the curriculum, in a similar way to his peers. While he would benefit from slowing down at times, to increase his accuracy, and he may find it somewhat difficult to remain engaged with a text that is not in an area of personal interest, no significant areas of concern were noted with Harry’s reading."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "950462ae-4328-4721-a593-4e603f415012",
+        "title": "All Bad",
+        "sections": []
+      }
+    ]
+  }
+]

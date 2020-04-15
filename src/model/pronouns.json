@@ -1,0 +1,66 @@
+{
+  "FIRST": {
+    "SINGULAR": {
+      "SUBJECT": "I",
+      "OBJECT": "me",
+      "DEPENDENT-POSSESSIVE": "my",
+      "INDEPENDENT-POSSESSIVE": "mine",
+      "REFLEXIVE": "myself"
+    },
+    "PLURAL": {
+      "SUBJECT": "we",
+      "OBJECT": "us",
+      "DEPENDENT-POSSESSIVE": "our",
+      "INDEPENDENT-POSSESSIVE": "ours",
+      "REFLEXIVE": "ourselves"
+    }
+  },
+  "SECOND": {
+    "SINGULAR": {
+      "SUBJECT": "you",
+      "OBJECT": "you",
+      "DEPENDENT-POSSESSIVE": "your",
+      "INDEPENDENT-POSSESSIVE": "yours",
+      "REFLEXIVE": "yourself"
+    },
+    "PLURAL": {
+      "SUBJECT": "you",
+      "OBJECT": "you",
+      "DEPENDENT-POSSESSIVE": "your",
+      "INDEPENDENT-POSSESSIVE": "yours",
+      "REFLEXIVE": "yourselves"
+    }
+  },
+  "THIRD": {
+    "SINGULAR": {
+      "MASCULINE": {
+        "SUBJECT": "he",
+        "OBJECT": "him",
+        "DEPENDENT-POSSESSIVE": "his",
+        "INDEPENDENT-POSSESSIVE": "his",
+        "REFLEXIVE": "himself"
+      },
+      "FEMININE": {
+        "SUBJECT": "she",
+        "OBJECT": "her",
+        "DEPENDENT-POSSESSIVE": "her",
+        "INDEPENDENT-POSSESSIVE": "hers",
+        "REFLEXIVE": "herself"
+      },
+      "EPICENE": {
+        "SUBJECT": "they",
+        "OBJECT": "them",
+        "DEPENDENT-POSSESSIVE": "their",
+        "INDEPENDENT-POSSESSIVE": "theirs",
+        "REFLEXIVE": "themself"
+      }
+    },
+    "PLURAL": {
+      "SUBJECT": "they",
+      "OBJECT": "them",
+      "DEPENDENT-POSSESSIVE": "their",
+      "INDEPENDENT-POSSESSIVE": "theirs",
+      "REFLEXIVE": "themselves"
+    }
+  }
+}
