@@ -8,10 +8,7 @@
     "forge:start": "electron-forge start",
     "forge:package": "electron-forge package",
     "forge:make": "electron-forge make",
-    "forge:publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "reason:start": "bsb -make-world -clean-world -w",
-    "reason:build": "bsb -make-world -clean-world"
+    "forge:publish": "electron-forge publish"
   },
   "keywords": [],
   "author": "hikurangi",
@@ -36,6 +33,7 @@
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.0.0",
     "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "jest": "^25.3.0",
     "node-loader": "^0.6.0",
     "style-loader": "^1.1.3",
     "ts-loader": "^6.2.2",
@@ -43,8 +41,8 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "typeface-raleway": "0.0.75"
   }
