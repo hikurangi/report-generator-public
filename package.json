@@ -11,8 +11,7 @@
     "forge:publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
     "reason:start": "bsb -make-world -clean-world -w",
-    "reason:build": "bsb -make-world -clean-world",
-    "install-wsl": "./install-wsl.sh"
+    "reason:build": "bsb -make-world -clean-world"
   },
   "keywords": [],
   "author": "hikurangi",
