@@ -2,12 +2,12 @@
   {
     "id": "c692548b-a1a5-490f-8a2d-8d07706128ae",
     "title": "Reading",
-    "body": "{{REPORTEE_NAME}}’s reading was assessed in a number of ways, including {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} early reading skills (the foundation knowledge needed to support the reading process), reading individual words (both real words and pseudo-words that follow the pattern of English), reading a passage of text, and {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reads.",
+    "body": "{{REPORTEE_NAME}}’s reading was assessed in a number of ways, including {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} early reading skills (the foundation knowledge needed to support the reading process), reading individual words (both real words and pseudo-words that follow the pattern of English), reading a passage of text, and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} reads.",
     "sections": [
       {
         "id": "a0f2d065-6c1a-4bc3-81f2-3854c8dfb28d",
         "title": "All Good",
-        "body": "Across all these measures, {{REPORTEE_NAME}} scored in the average range or above. The foundation skills for reading appear established, and {{THIRD_SINGULAR_MASCULINE_SUBJECT}} is able to apply those skills to read familiar words, and words {{THIRD_SINGULAR_MASCULINE_SUBJECT}} hasn’t seen before, such as those in the pseudo-word (non-word) reading subtest.",
+        "body": "Across all these measures, {{REPORTEE_NAME}} scored in the average range or above. The foundation skills for reading appear established, and {{THIRD_SINGULAR_SUBJECT}} is able to apply those skills to read familiar words, and words {{THIRD_SINGULAR_SUBJECT}} hasn’t seen before, such as those in the pseudo-word (non-word) reading subtest.",
         "sections": [
           {
             "id": "5f3b5e42-09c0-4d46-a4f4-1a238e68f005",
@@ -16,12 +16,12 @@
               {
                 "id": "8c89bcb0-a937-41ee-973a-ee60ecbe60ae",
                 "title": "Good",
-                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a good number of sight-words, and once {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_MASCULINE_SUBJECT}} was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_MASCULINE_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_MASCULINE_SUBJECT}} also read at a good speed, suggesting that the reading process is relatively automatic for {{THIRD_SINGULAR_MASCULINE_OBJECT}}."
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a good number of sight-words, and once {{THIRD_SINGULAR_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_SUBJECT}} was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_SUBJECT}} also read at a good speed, suggesting that the reading process is relatively automatic for {{THIRD_SINGULAR_OBJECT}}."
               },
               {
                 "id": "55eb1369-8df0-494b-a7ba-5e069e3bb2e5",
                 "title": "Generally good",
-                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a number of sight-words, and once {{THIRD_SINGULAR_MASCULINE_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_MASCULINE_SUBJECT}} was able to sound them out, letter by letter or using familiar letter combinations (e.g. knowing that ‘tion’ is read ‘shon’). This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_MASCULINE_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_MASCULINE_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_MASCULINE_SUBJECT}} also read at a good speed, suggesting that the reading process is becoming somewhat automatic for {{THIRD_SINGULAR_MASCULINE_OBJECT}}."
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a number of sight-words, and once {{THIRD_SINGULAR_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_SUBJECT}} was able to sound them out, letter by letter or using familiar letter combinations (e.g. knowing that ‘tion’ is read ‘shon’). This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_SUBJECT}} also read at a good speed, suggesting that the reading process is becoming somewhat automatic for {{THIRD_SINGULAR_OBJECT}}."
               }
             ]
           },
@@ -32,7 +32,7 @@
               {
                 "id": "800949e1-a9a0-4e2e-a161-1708dd76a4ee",
                 "title": "Good",
-                "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression."
+                "body": "When reading a passage of text, {{REPORTEE_NAME}} also read accurately and at a good rate. {{THIRD_SINGULAR_SUBJECT}} used good intonation as {{THIRD_SINGULAR_SUBJECT}} read, and used the punctuation in the text to guide {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} pace and expression."
               },
               {
                 "id": "95f85ef1-034b-4e32-a24a-a3e0fa8e55ce",
@@ -48,12 +48,12 @@
               {
                 "id": "465e7b3c-ad7b-428a-9f50-e84a86fe0dee",
                 "title": "Good",
-                "body": "Harry scored exceptionally well on the reading comprehension task.  Harry was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+                "body": "{{REPORTEE_NAME}} scored exceptionally well on the reading comprehension task. {{REPORTEE_NAME}} was able to answer both literal questions, where the answer was within the text, and inferential questions, where {{THIRD_SINGULAR_SUBJECT}} had to ‘read between the lines’."
               },
               {
                 "id": "84abfa0b-dfc8-4033-bf52-daa7a25facae",
                 "title": "Generally good",
-                "body": "Harry's score on the reading comprehension task was sound. He was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+                "body": "{{REPORTEE_NAME}}'s score on the reading comprehension task was sound. {{THIRD_SINGULAR_SUBJECT}} was able to answer both literal questions, where the answer was within the text, and inferential questions, where {{THIRD_SINGULAR_SUBJECT}} had to ‘read between the lines’."
               }
             ]
           },
@@ -64,12 +64,12 @@
               {
                 "id": "8430346b-17d2-41b8-b47a-08b78a66d626",
                 "title": "Good",
-                "body": "Overall, there were therefore no concerns in relation to Harry’s reading. He can read accurately, at a reasonable speed and take meaning from written text."
+                "body": "Overall, there were therefore no concerns in relation to {{REPORTEE_NAME}}’s reading. {{THIRD_SINGULAR_SUBJECT}} can read accurately, at a reasonable speed and take meaning from written text."
               },
               {
                 "id": "3a991dce-e496-43f7-9fc1-0882dca99106",
                 "title": "Generally good",
-                "body": "Overall, Harry is reading at a level that should enable him to access the curriculum, in a similar way to his peers. While he would benefit from slowing down at times, to increase his accuracy, and he may find it somewhat difficult to remain engaged with a text that is not in an area of personal interest, no significant areas of concern were noted with Harry’s reading."
+                "body": "Overall, {{REPORTEE_NAME}} is reading at a level that should enable him to access the curriculum, in a similar way to {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} peers. While {{THIRD_SINGULAR_SUBJECT}} would benefit from slowing down at times, to increase {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy, and {{THIRD_SINGULAR_SUBJECT}} may find it somewhat difficult to remain engaged with a text that is not in an area of personal interest, no significant areas of concern were noted with {{REPORTEE_NAME}}’s reading."
               }
             ]
           }
@@ -78,7 +78,7 @@
       {
         "id": "a832f4c7-a305-4d73-a9c8-ae75ec2687a5",
         "title": "Mixed",
-        "body": "Harry’s results were mixed across the reading assessment, suggesting that he experiences pockets of difficulties in relation to reading.",
+        "body": "{{REPORTEE_NAME}}’s results were mixed across the reading assessment, suggesting that {{THIRD_SINGULAR_SUBJECT}} experiences pockets of difficulties in relation to reading.",
         "sections": [
           {
             "id": "21a9595c-adbf-435e-bfb5-ab9748f73ec2",
@@ -86,18 +86,18 @@
             "sections": [
               {
                 "id": "cb5a7b0e-81fa-4e5a-a391-b53e0c460352",
-                "title": "Good",
-                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew a good number of sight-words, and once he reached lower-frequency words, he was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though he had to rely more heavily on his decoding skills, Harry continued to manage well. He also read at a good speed, suggesting that the reading process is relatively automatic for him."
+                "title": "All good",
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew a good number of sight-words, and once {{THIRD_SINGULAR_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_SUBJECT}} was able to sound them out with ease. This pattern was replicated in the Pseudoword Decoding subtest. Even though {{THIRD_SINGULAR_SUBJECT}} had to rely more heavily on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} decoding skills, {{REPORTEE_NAME}} continued to manage well. {{THIRD_SINGULAR_SUBJECT}} also read at a good speed, suggesting that the reading process is relatively automatic for him."
               },
               {
                 "id": "a36192a4-0d3e-4a09-8ce4-6b4b490b6c2f",
                 "title": "Word reading good/pseudoword bad",
-                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew only a few sight-words, and once he reached lower-frequency words, he had to work hard to sound them out, letter by letter. OR , he began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, Harry had to rely even more heavily on his decoding skills. The slow speed at which Harry read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for Harry."
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew only a few sight-words, and once {{THIRD_SINGULAR_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_SUBJECT}} had to work hard to sound them out, letter by letter. OR , {{THIRD_SINGULAR_SUBJECT}} began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, {{REPORTEE_NAME}} had to rely even more heavily on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} decoding skills. The slow speed at which {{REPORTEE_NAME}} read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for {{REPORTEE_NAME}}."
               },
               {
                 "id": "fad91e52-4b8a-4d4c-8099-b307f4e8a4b8",
                 "title": "Mixed",
-                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), Harry knew only a few sight-words, and once he reached lower-frequency words, he had to work hard to sound them out, letter by letter. OR , he began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, Harry had to rely even more heavily on his decoding skills. The slow speed at which Harry read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for Harry."
+                "body": "When reading individual words (Basic Reading Skills SS=XX/XXth percentile), {{REPORTEE_NAME}} knew only a few sight-words, and once {{THIRD_SINGULAR_SUBJECT}} reached lower-frequency words, {{THIRD_SINGULAR_SUBJECT}} had to work hard to sound them out, letter by letter. OR , {{THIRD_SINGULAR_SUBJECT}} began to guess them from a few salient letters. This pattern was replicated/exacerbated in the Pseudoword Decoding subtest. Here, {{REPORTEE_NAME}} had to rely even more heavily on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} decoding skills. The slow speed at which {{REPORTEE_NAME}} read, particularly in the Pseudoword subtest, (Xth percentile), shows the effortful nature of decoding unfamiliar words for {{REPORTEE_NAME}}."
               }
             ]
           },
@@ -108,36 +108,35 @@
               {
                 "id": "f697b233-eea2-4b95-9190-5d998503291e",
                 "title": "Good",
-                "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression."
+                "body": "When reading a passage of text, {{REPORTEE_NAME}} also read accurately and at a good rate. {{THIRD_SINGULAR_SUBJECT}} used good intonation as {{THIRD_SINGULAR_SUBJECT}} read, and used the punctuation in the text to guide {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} pace and expression."
               },
               {
                 "id": "95f85ef1-034b-4e32-a24a-a3e0fa8e55ce",
                 "title": "Bad",
-                "body": "Next, Harry’s fluency reading a piece of text was assessed. Here, his accuracy and his speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile).  Harry’s reading accuracy dropped marginally/significantly when he switched from focusing on individual words, to reading a passage of text.  The difficulty he had accurately reading individual words in isolation was exacerbated once he was reading in the context of sentences and paragraphs.",
                 "sections": [
                   {
                     "id": "403de481-63aa-4b04-90b1-666195cd80e2",
                     "title": "Bad following good word reading",
-                    "body": "When reading a passage of text, Harry also read accurately and at a good rate. He used good intonation as he read, and used the punctuation in the text to guide his pace and expression.",
+                    "body": "Next, {{REPORTEE_NAME}}’s fluency reading a piece of text was assessed. Here, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). {{REPORTEE_NAME}}’s reading accuracy dropped marginally/significantly when {{THIRD_SINGULAR_SUBJECT}} switched from focusing on individual words, to reading a passage of text. The difficulty {{THIRD_SINGULAR_SUBJECT}} had accurately reading individual words in isolation was exacerbated once {{THIRD_SINGULAR_SUBJECT}} was reading in the context of sentences and paragraphs.",
                     "sections": [
                       {
                         "id": "0a9eace6-dfe2-4460-bd0d-d84f674b8cbb",
                         "title": "Slow and stilted",
                         "note": "Then a comment on reading style, e.g:",
-                        "body": "He diligently worked to decode word, after word, at times reading and re-reading until he had read enough words to make sense of a sentence.  Even with all that effort, his accuracy was far lower than would be expected (SS=XX/Xrd percentile) and the time it took (SS=XX/X percentile) suggests it would severely impact Harry’s ability to access learning resources in the classroom via reading, despite his intellectual capability."
+                        "body": "{{THIRD_SINGULAR_SUBJECT}} diligently worked to decode word, after word, at times reading and re-reading until {{THIRD_SINGULAR_SUBJECT}} had read enough words to make sense of a sentence. Even with all that effort, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy was far lower than would be expected (SS=XX/Xrd percentile) and the time it took (SS=XX/X percentile) suggests it would severely impact {{REPORTEE_NAME}}’s ability to access learning resources in the classroom via reading, despite {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} intellectual capability."
                       },
                       {
                         "id": "02d7cfcf-a670-4e17-8362-e86630b1f35c",
                         "title": "Pace OK but error-ridden",
                         "note": "OR make up your own to match circumstances",
-                        "body": "When reading a longer passage, he skipped words, replaced words and missed the ending off others.  This appeared to be a function of (attention and speed/ the effortful nature of decoding/ visual tracking difficulties).  This meant that although he read at a good pace/quickly for his age (SS=XX/Xrd percentile), his accuracy was far lower than would be expected (SS=XX/Xrd percentile).  This level of inaccuracy when reading would severely impact Harry’s ability to access learning resources in the classroom via reading, despite his intellectual capability."
+                        "body": "When reading a longer passage, {{THIRD_SINGULAR_SUBJECT}} skipped words, replaced words and missed the ending off others. This appeared to be a function of (attention and speed/ the effortful nature of decoding/ visual tracking difficulties). This meant that although {{THIRD_SINGULAR_SUBJECT}} read at a good pace/quickly for {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} age (SS=XX/Xrd percentile), {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy was far lower than would be expected (SS=XX/Xrd percentile). This level of inaccuracy when reading would severely impact {{REPORTEE_NAME}}’s ability to access learning resources in the classroom via reading, despite {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} intellectual capability."
                       }
                     ]
                   },
                   {
                     "id": "968377a3-3f30-4382-8020-81d8228c5a3b",
                     "title": "Bad following bad word reading",
-                    "body": "Next, Harry’s fluency reading a piece of text was assessed. Here, his accuracy and his speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). Harry’s Oral Reading Accuracy score (SS=XX/XXth percentile) was similar to his Basic Reading Skills score. Having the context of a meaningful story did not improve Harry’s reading accuracy."
+                    "body": "Next, {{REPORTEE_NAME}}’s fluency reading a piece of text was assessed. Here, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). {{REPORTEE_NAME}}’s Oral Reading Accuracy score (SS=XX/XXth percentile) was similar to {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} Basic Reading Skills score. Having the context of a meaningful story did not improve {{REPORTEE_NAME}}’s reading accuracy."
                   }
                 ]
               }
@@ -149,38 +148,174 @@
             "sections": [
               {
                 "id": "465e7b3c-ad7b-428a-9f50-e84a86fe0dee",
-                "title": "Good",
-                "body": "Harry scored exceptionally well on the reading comprehension task.  Harry was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+                "title": "All good",
+                "body": "{{REPORTEE_NAME}} scored exceptionally well on the reading comprehension task. {{REPORTEE_NAME}} was able to answer both literal questions, where the answer was within the text, and inferential questions, where {{THIRD_SINGULAR_SUBJECT}} had to ‘read between the lines’."
               },
               {
                 "id": "84abfa0b-dfc8-4033-bf52-daa7a25facae",
-                "title": "Generally good",
-                "body": "Harry's score on the reading comprehension task was sound. He was able to answer both literal questions, where the answer was within the text, and inferential questions, where he had to ‘read between the lines’."
+                "title": "All bad",
+                "sections": [
+                  {
+                    "id": "bc5c94d7-f042-4c83-bb00-60e31b2fdb60",
+                    "title": "Because of poor accuracy",
+                    "body": "{{REPORTEE_NAME}} experienced extreme difficulty with the reading comprehension task. This is unsurprising, given the degree of difficulty {{THIRD_SINGULAR_SUBJECT}} experienced when attempting to decode words. {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} reads is markedly impaired by {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} poor reading accuracy and the time it takes him to read a passage of text – meaning is simply lost with the time and effort it takes to read. This is despite {{REPORTEE_NAME}} having good oral comprehension skills. When we compare {{REPORTEE_NAME}}’s understanding of text that has been read aloud (Oral Discourse Comprehension – from the Oral Language section of the assessment) with {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} has just read, it is apparent that reading acts as a barrier to accessing information for {{REPORTEE_NAME}}. This is likely to impact {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} ability to learn, through reading, in the classroom."
+                  },
+                  {
+                    "id": "62853fc6-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because of poor language",
+                    "body": "Although {{REPORTEE_NAME}} could read relatively accurately, and at a reasonable speed, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} understanding of what {{THIRD_SINGULAR_SUBJECT}} read appeared significantly impaired. {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulty taking meaning from text is not, therefore, because {{THIRD_SINGULAR_SUBJECT}} finds the mechanical process of reading hard, but due to a more general difficulty comprehending language. This is evident when we compare {{REPORTEE_NAME}}’s understanding of text that has been read aloud (Oral Discourse Comprehension – from the Oral Language section of the assessment) with {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} has just read. This means {{REPORTEE_NAME}}’s may have difficulty accessing knowledge in the classroom, whether {{THIRD_SINGULAR_SUBJECT}} is listening to, or reading material."
+                  }
+                ]
+              },
+              {
+                "id": "628540c0-8a69-11ea-bc55-0242ac130003",
+                "title": "Mixed",
+                "sections": [
+                  {
+                    "id": "62854192-8a69-11ea-bc55-0242ac130003",
+                    "title": "Better than you expected given poor accuracy",
+                    "body": "Very pleasingly, {{REPORTEE_NAME}}’s reading comprehension was not as low as might be expected, based on the number of errors {{THIRD_SINGULAR_SUBJECT}} made when decoding words. This is in part because of {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} good vocabulary, as this supports {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} understanding of what {{THIRD_SINGULAR_SUBJECT}} reads. Also, in the context of the assessment, {{THIRD_SINGULAR_SUBJECT}} was able to look back at the text and find the words that related to the questions she was asked.",
+                    "sections": [
+                      {
+                        "id": "62854444-8a69-11ea-bc55-0242ac130003",
+                        "title": "Located information but didn't fully understand",
+                        "body": "At times, it appeared that {{THIRD_SINGULAR_SUBJECT}} located the relevant information to answer the question, but did not fully understand either the question or the answer – essentially engaging in a matching exercise. {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} score, while positive, therefore needs to be considered with some caution, and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} deeper understanding of what {{THIRD_SINGULAR_SUBJECT}} has read should be checked on a regular basis. If {{REPORTEE_NAME}} is not able to check back in the text to confirm meaning, it is likely that {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} poor reading accuracy, together with a weakness in working memory, will mean {{THIRD_SINGULAR_SUBJECT}} forgets what {{THIRD_SINGULAR_SUBJECT}} reads before {{THIRD_SINGULAR_SUBJECT}} reaches the end."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "62854520-8a69-11ea-bc55-0242ac130003",
+                    "title": "Better inference",
+                    "body": "{{REPORTEE_NAME}} indicated that {{THIRD_SINGULAR_SUBJECT}} was guessing {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} answers at times, and this paid off for him, because the majority of the correct answers {{THIRD_SINGULAR_SUBJECT}} gave were ones {{THIRD_SINGULAR_SUBJECT}} had guessed based on the pictures or general gist of the story, rather than from specifics in the text. {{THIRD_SINGULAR_SUBJECT}} therefore gained most of {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} score based on guessing items that were inferred, rather than accurately recalling answers that were explicitly written in the text."
+                  },
+                  {
+                    "id": "628545f2-8a69-11ea-bc55-0242ac130003",
+                    "title": "Better literal",
+                    "body": "A further observation around {{REPORTEE_NAME}}’s reading comprehension, is that while {{THIRD_SINGULAR_SUBJECT}} was able to answer most questions that required a literal answer, {{THIRD_SINGULAR_SUBJECT}} had significantly more difficulty inferring meaning from text. Again, this is important to consider in relation to {{REPORTEE_NAME}}’s studies, as it is important to be able to ‘read between the lines’, whether listening to, or reading, a piece of text."
+                  }
+                ]
               }
             ]
           },
           {
-            "id": "fdd32b1a-5a76-4a37-b460-df655cb449ca",
+            "id": "62854782-8a69-11ea-bc55-0242ac130003",
             "title": "Summary",
             "sections": [
               {
-                "id": "8430346b-17d2-41b8-b47a-08b78a66d626",
-                "title": "Good",
-                "body": "Overall, there were therefore no concerns in relation to Harry’s reading. He can read accurately, at a reasonable speed and take meaning from written text."
+                "id": "62854840-8a69-11ea-bc55-0242ac130003",
+                "title": "Diagnosis",
+                "body": "Though {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} scores are somewhat mixed, the difficulty {{REPORTEE_NAME}} is experiencing with reading is unexpected, based on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} overall level of ability and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} strong oral language skills. This difficulty with reading has persisted, despite X months/years of targeted intervention.  Therefore, {{REPORTEE_NAME}} meets criteria for a Specific Learning Disorder (SLD) in reading, which is also known as ‘dyslexia’. As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from phonological weaknesses, which make it hard to decode words letter by letter, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘dysphonetic dyslexia’. OR As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from orthographic weaknesses, which make it hard to access {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} visual memory of sight words, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘surface dyslexia’. OR As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from both phonological and orthographic difficulties, meaning {{THIRD_SINGULAR_SUBJECT}} experiences difficulties sounding words out and accessing {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} visual memory store of sight words, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘mixed dyslexia’."
               },
               {
-                "id": "3a991dce-e496-43f7-9fc1-0882dca99106",
-                "title": "Generally good",
-                "body": "Overall, Harry is reading at a level that should enable him to access the curriculum, in a similar way to his peers. While he would benefit from slowing down at times, to increase his accuracy, and he may find it somewhat difficult to remain engaged with a text that is not in an area of personal interest, no significant areas of concern were noted with Harry’s reading."
+                "id": "62854ac0-8a69-11ea-bc55-0242ac130003",
+                "title": "Mixed - accuracy better than comp",
+                "body": "Overall, while {{REPORTEE_NAME}} can ‘go through the motions’ and read a piece of text with a relatively good degree of accuracy and speed, {{THIRD_SINGULAR_SUBJECT}} experiences more difficulty taking meaning from text. Support around {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} language comprehension generally, in particular, growing {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} vocabulary, will support {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} reading development. In the meantime, particular care needs to be taken to check in with {{REPORTEE_NAME}}, to ensure {{THIRD_SINGULAR_SUBJECT}} has understood what {{THIRD_SINGULAR_SUBJECT}} has read."
+              },
+              {
+                "id": "62854c6e-8a69-11ea-bc55-0242ac130003",
+                "title": "Mixed - comp better than accuracy",
+                "body": "Paragraph missing!"
               }
             ]
           }
         ]
       },
       {
-        "id": "950462ae-4328-4721-a593-4e603f415012",
+        "id": "62854d36-8a69-11ea-bc55-0242ac130003",
         "title": "All Bad",
-        "sections": []
+        "body": "{{REPORTEE_NAME}} experienced difficulty across the reading assessment, whether {{THIRD_SINGULAR_SUBJECT}} was reading words in isolation or in the context of a longer passage of text.",
+        "sections": [
+          {
+            "id": "62854dfe-8a69-11ea-bc55-0242ac130003",
+            "title": "Basic reading",
+            "body": "Paragraph missing!"
+          },
+          {
+            "id": "6285518c-8a69-11ea-bc55-0242ac130003",
+            "title": "Oral reading fluency",
+            "sections": [
+              {
+                "id": "62855308-8a69-11ea-bc55-0242ac130003",
+                "title": "Bad",
+                "sections": [
+                  {
+                    "id": "6285548e-8a69-11ea-bc55-0242ac130003",
+                    "title": "Bad following good word reading",
+                    "body": "Next, {{REPORTEE_NAME}}’s fluency reading a piece of text was assessed. Here, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). {{REPORTEE_NAME}}’s reading accuracy dropped marginally/significantly when {{THIRD_SINGULAR_SUBJECT}} switched from focusing on individual words, to reading a passage of text. The difficulty {{THIRD_SINGULAR_SUBJECT}} had accurately reading individual words in isolation was exacerbated once {{THIRD_SINGULAR_SUBJECT}} was reading in the context of sentences and paragraphs.",
+                    "sections": [
+                      {
+                        "id": "62855952-8a69-11ea-bc55-0242ac130003",
+                        "title": "Slow and stilted",
+                        "note": "Then a comment on reading style e.g.:",
+                        "body": "{{THIRD_SINGULAR_SUBJECT}} diligently worked to decode word, after word, at times reading and re-reading until {{THIRD_SINGULAR_SUBJECT}} had read enough words to make sense of a sentence. Even with all that effort, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy was far lower than would be expected (SS=XX/Xrd percentile) and the time it took (SS=XX/X percentile) suggests it would severely impact {{REPORTEE_NAME}}’s ability to access learning resources in the classroom via reading, despite {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} intellectual capability."
+                      },
+                      {
+                        "id": "62855a1a-8a69-11ea-bc55-0242ac130003",
+                        "title": "Pace OK but error-ridden",
+                        "note": "OR make up your own to match circumstances:",
+                        "body": "When reading a longer passage, {{THIRD_SINGULAR_SUBJECT}} skipped words, replaced words and missed the ending off others. This appeared to be a function of (attention and speed/ the effortful nature of decoding/ visual tracking difficulties). This meant that although {{THIRD_SINGULAR_SUBJECT}} read at a good pace/quickly for {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} age (SS=XX/Xrd percentile), {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy was far lower than would be expected (SS=XX/Xrd percentile). This level of inaccuracy when reading would severely impact {{REPORTEE_NAME}}’s ability to access learning resources in the classroom via reading, despite {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} intellectual capability."
+                      },
+                      {}
+                    ]
+                  },
+                  {
+                    "id": "628557c2-8a69-11ea-bc55-0242ac130003",
+                    "title": "Bad following bad word reading",
+                    "body": "Next, {{REPORTEE_NAME}}’s fluency reading a piece of text was assessed. Here, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} accuracy and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} speed are combined to make the overall Oral Reading Fluency score (SS=XX/XXth percentile). {{REPORTEE_NAME}}’s Oral Reading Accuracy score (SS=XX/XXth percentile) was similar to {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} Basic Reading Skills score. Having the context of a meaningful story did not improve {{REPORTEE_NAME}}’s reading accuracy."
+                  }
+                ]
+              },
+              {
+                "id": "62855ad8-8a69-11ea-bc55-0242ac130003",
+                "title": "All bad",
+                "sections": [
+                  {
+                    "id": "62855e2a-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because of poor accuracy",
+                    "body": "{{REPORTEE_NAME}} experienced extreme difficulty with the reading comprehension task. This is unsurprising, given the degree of difficulty {{THIRD_SINGULAR_SUBJECT}} experienced when attempting to decode words. {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} reads is markedly impaired by {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} poor reading accuracy and the time it takes him to read a passage of text – meaning is simply lost with the time and effort it takes to read. This is despite {{REPORTEE_NAME}} having good oral comprehension skills. When we compare {{REPORTEE_NAME}}’s understanding of text that has been read aloud (Oral Discourse Comprehension – from the Oral Language section of the assessment) with {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} has just read, it is apparent that reading acts as a barrier to accessing information for {{REPORTEE_NAME}}. This is likely to impact {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} ability to learn, through reading, in the classroom."
+                  },
+                  {
+                    "id": "62855fb0-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because of poor language",
+                    "body": "Although {{REPORTEE_NAME}} could read relatively accurately, and at a reasonable speed, {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} understanding of what {{THIRD_SINGULAR_SUBJECT}} read appeared significantly impaired. {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulty taking meaning from text is not, therefore, because {{THIRD_SINGULAR_SUBJECT}} finds the mechanical process of reading hard, but due to a more general difficulty comprehending language. This is evident when we compare {{REPORTEE_NAME}}’s understanding of text that has been read aloud (Oral Discourse Comprehension – from the Oral Language section of the assessment) with {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} comprehension of what {{THIRD_SINGULAR_SUBJECT}} has just read. This means {{REPORTEE_NAME}}’s may have difficulty accessing knowledge in the classroom, whether {{THIRD_SINGULAR_SUBJECT}} is listening to, or reading material."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "62856078-8a69-11ea-bc55-0242ac130003",
+            "title": "Summary",
+            "sections": [
+              {
+                "id": "6285637a-8a69-11ea-bc55-0242ac130003",
+                "title": "Diagnosis",
+                "body": "The significant difficulty {{REPORTEE_NAME}} is experiencing with reading is unexpected, based on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} overall level of ability and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} strong oral language skills. This difficulty with reading has persisted, despite X months/years of targeted intervention.  Therefore, {{REPORTEE_NAME}} meets criteria for a Specific Learning Disorder (SLD) in reading, which is also known as ‘dyslexia’. As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from phonological weaknesses, which make it hard to decode words letter by letter, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘dysphonetic dyslexia’. OR As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from orthographic weaknesses, which make it hard to access {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} visual memory of sight words, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘surface dyslexia’. OR As {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} difficulties stem from both phonological and orthographic difficulties, meaning {{THIRD_SINGULAR_SUBJECT}} experiences difficulties sounding words out and accessing {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} visual memory store of sight words, the type of dyslexia {{THIRD_SINGULAR_SUBJECT}} experiences is best described as ‘mixed dyslexia’."
+              },
+              {
+                "id": "62856514-8a69-11ea-bc55-0242ac130003",
+                "title": "No diagnosis",
+                "sections": [
+                  {
+                    "id": "628565dc-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because no intervention",
+                    "body": "The significant difficulty {{REPORTEE_NAME}} is experiencing with reading is unexpected, based on {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} overall level of ability and {{THIRD_SINGULAR_DEPENDENT-POSESSIVE}} stronger oral language skills. Urgent intervention is needed to support the development of {{REPORTEE_NAME}}’s reading skills. A formal diagnosis of a Specific Learning Disorder in Reading (dyslexia) cannot be made until intervention has taken place, and we can be sure that with targeted support, {{REPORTEE_NAME}}’s reading isn’t going to suddenly unlock. At this stage, however, it should be acknowledged that there is a significant delay in {{REPORTEE_NAME}}’s reading development. If this does not shift in the next 12 months, then reassessment should take place, and the question of diagnosis should be reconsidered."
+                  },
+                  {
+                    "id": "6285669a-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because in keeping with IQ",
+                    "body": "Paragraph missing!"
+                  },
+                  {
+                    "id": "62856834-8a69-11ea-bc55-0242ac130003",
+                    "title": "Because in keeping with oral language",
+                    "body": "Paragraph missing!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
