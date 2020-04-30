@@ -1,4 +1,16 @@
-open Utils;
+import 'typeface-raleway'
+
+import './css/index.css'
+import './css/normalize.css'
+import './css/skeleton.css'
+
+import * as React    from 'react'
+import * as ReactDOM from 'react-dom'
+
+import App           from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
 /**
  * This file will automatically be loaded by webpack and run in the "renderer" context.
  * To learn more about the differences between the "main" and the "renderer" context in
@@ -26,9 +38,3 @@ open Utils;
  *  });
  * ```
  */
-
-importSideEffect("./css/skeleton.css");
-importSideEffect("./css/normalize.css");
-importSideEffect("./css/index.css");
-
-ReactDOMRe.renderToElementWithId(<App />, "root");
