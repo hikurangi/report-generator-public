@@ -36,6 +36,7 @@
     "jest": "^25.3.0",
     "node-loader": "^0.6.0",
     "style-loader": "^1.2.1",
+    "ts-jest": "^25.4.0",
     "ts-loader": "^7.0.1",
     "typescript": "^3.8.3"
   },
