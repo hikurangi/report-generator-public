@@ -1,58 +1,38 @@
 import pronouns from '../model/pronouns'
+import { CompileInputs, ReportNode } from '../types'
 
-interface ReportNode {
-  id: string,
-  title: string,
-  body?: string,
-  note?: string,
-  sections?: ReportNode[]
-}
-
-interface Reportee {
-  name: string,
-  gender: string
-}
-
-interface CompileInputs {
-  report: ReportNode,
-  reportee: Reportee
-}
+const capitalizeFirstLetter = (string : string) : string => `${string.charAt(0).toUpperCase()}${string.slice(1)}`
 
 const compile = ({ report, reportee } : CompileInputs) : ReportNode => {
-
-  const matches: Map<string, string> = new Map([
-    ['{{REPORTEE_NAME}}', reportee.name],
-    ['{{REPORTEE_NAME_POSSESSIVE}}', reportee.name.slice(-1) == 's' ? `${reportee.name}'` : `${reportee.name}'s`],
-    ...pronouns(reportee.gender)
-  ])
-
-  let { body } = report
+  const patterns = pronouns(reportee) 
+  const { body } = report
+  let formatted
 
   if (body && body.length > 0) {
-    // how does this deal with double spaces, tabs?
-    // For now, we trust this text -> assume that we have kept it clean using validation, trimming whitespace etc
-    body = body
-      .split(' ')
-      // punctuation ie: full stop at end is a problem.
-      .map(word => {
-        const testWord : string = word.replace(/[^\w\s_\-\{\}]/, '')
-        // is word at beginning of sentence?
-        // - at end of sentence?
-        // - pre/pro-ceded by colon or comma?
 
-        return matches.has(testWord)
-          ? matches.get(testWord)
-          : word
-      })
-      .join(' ')
+    formatted = body.replace(/\{\{(.*?)\}\}/g, (_, captured, offset) => {
 
+      // makes the patterns.get() call below safe
+      if(!patterns.has(captured)) {
+        throw new Error(`Could not find a matching pattern for: "${captured}"`)
+      }
+
+      const doesMatchStartASentence = body.substring(offset - 2, offset) === '. '
+      // the use of the cast <string> below is a workaround, given the following quirk of ts' Map.get():
+      // https://stackoverflow.com/questions/30019542/es6-map-in-typescript#answer-50826619
+      const pronoun = <string>patterns.get(captured)
+
+      return doesMatchStartASentence
+        ? capitalizeFirstLetter(pronoun)
+        : pronoun
+    })
   }
 
   return {
     // safe to destructure 'cause the return value is typed
     // lollll
     ...report,
-    body
+    body: formatted
   }
 }
 
