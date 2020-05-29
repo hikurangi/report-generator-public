@@ -1,6 +1,6 @@
 import { Reportee } from '../types'
 
-const pronouns = ({ gender, name } : Reportee): Map<string, string> => {
+const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
 
   const list = [
     ['REPORTEE_NAME', name],
@@ -62,4 +62,4 @@ const pronouns = ({ gender, name } : Reportee): Map<string, string> => {
   return new Map(list)
 }
 
-export default pronouns
+export default getPronouns
