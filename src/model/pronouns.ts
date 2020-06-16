@@ -2,7 +2,7 @@ import { Reportee } from '../types'
 
 const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
 
-  const list = [
+  const pronouns: Map<string, string> = new Map([
     ['REPORTEE_NAME', name],
     ['REPORTEE_NAME_POSSESSIVE', name.slice(-1) == 's' ? `${name}'` : `${name}'s`],
     ['FIRST_SINGULAR_SUBJECT', 'I'],
@@ -30,10 +30,12 @@ const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
     ['THIRD_PLURAL_DEPENDENT-POSSESSIVE', 'their'],
     ['THIRD_PLURAL_INDEPENDENT-POSSESSIVE', 'theirs'],
     ['THIRD_PLURAL_REFLEXIVE', 'themselves']
-  ]
+  ])
+
+  let updates: string[][] = []
 
   if (gender === 'female') {
-    list.push(
+    updates.push(
       ['THIRD_SINGULAR_SUBJECT', 'she'],
       ['THIRD_SINGULAR_OBJECT', 'her'],
       ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'her'],
@@ -41,7 +43,7 @@ const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
       ['THIRD_SINGULAR_REFLEXIVE', 'herself']
     )
   } else if (gender === 'male') {
-    list.push(
+    updates.push(
       ['THIRD_SINGULAR_SUBJECT', 'he'],
       ['THIRD_SINGULAR_OBJECT', 'him'],
       ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'his'],
@@ -50,7 +52,7 @@ const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
     )
   } else {
     // very reductive, must fix!
-    list.push(
+    updates.push(
       ['THIRD_SINGULAR_SUBJECT', 'they'],
       ['THIRD_SINGULAR_OBJECT', 'them'],
       ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'their'],
@@ -59,7 +61,9 @@ const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
     )
   }
 
-  return new Map(list)
+  updates.forEach(([k, v]) => pronouns.set(k, v))
+  
+  return pronouns
 }
 
 export default getPronouns
