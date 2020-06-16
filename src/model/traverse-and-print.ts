@@ -1,28 +1,29 @@
-import { ReportNode } from '../types'
+// import { ReportNode } from '../types'
 
-const dataTree = {} // require('./pronouns')
-const flattened = new Map()
+// const dataTree = {} // require('./pronouns')
+// const flattened = new Map()
 
-const mapFromTree = (tree: ReportNode, path = '', key = '') => {
+// const mapFromTree = (tree: JSON, path = '', key = '') => {
 
-  // possibly unnecessary
-  if (!Boolean(tree)) throw new Error(`Tree is invalid, it looks like this: ${tree}`)
+//   // possibly unnecessary
+//   if (!Boolean(tree)) throw new Error(`Tree is invalid, it looks like this: ${tree}`)
 
-  // base case
-  // if the tree is defined and not an object
-  if (typeof tree !== 'object') {
+//   // base case
+//   // if the tree is defined and not an object
+//   if (typeof tree !== 'object') {
 
-    flattened.set(path, tree)
 
-  } else {
+// 1    flattened.set(path, tree)
 
-    Object.keys(tree).forEach(child => path === ''
-      ? mapFromTree(tree[child], child, child) 
-      : mapFromTree(tree[child], `${path}_${child}`, child))
+//   } else {
 
-  }
-}
+//     Object.keys(tree).forEach(child => path === ''
+//       ? mapFromTree(tree[child], child, child) 
+//       : mapFromTree(tree[child], `${path}_${child}`, child))
 
-mapFromTree(dataTree)
+//   }
+// }
 
-console.log(flattened)
+// mapFromTree(dataTree)
+
+// console.log(flattened)
