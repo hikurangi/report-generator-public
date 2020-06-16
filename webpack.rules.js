@@ -16,7 +16,7 @@ module.exports = [
   },
   {
     test: /\.tsx?$/,
-    exclude: /(node_modules|\.webpack|*\.(test|spec)\.tsx?$)/,
+    exclude: /(node_modules|\.webpack|.*\.(test|spec)\.tsx?$)/,
     use: {
       loader: 'ts-loader',
       options: {
