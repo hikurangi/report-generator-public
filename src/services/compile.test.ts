@@ -1,4 +1,4 @@
-import { compile } from './compile'
+import compile from './compile'
 
 test('Interpolates a name correctly', () => {
   const report = {

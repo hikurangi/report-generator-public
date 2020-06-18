@@ -38,6 +38,4 @@ const compile = ({ report, reportee } : CompileInputs) : ReportNode => {
   }
 }
 
-export {
-  compile
-}
+export default compile
