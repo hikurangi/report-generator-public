@@ -1,8 +1,32 @@
 import { Reportee } from '../types'
 
+const femalePronouns = [
+  ['THIRD_SINGULAR_SUBJECT', 'she'],
+  ['THIRD_SINGULAR_OBJECT', 'her'],
+  ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'her'],
+  ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'hers'],
+  ['THIRD_SINGULAR_REFLEXIVE', 'herself']
+]
+
+const malePronouns = [
+  ['THIRD_SINGULAR_SUBJECT', 'he'],
+  ['THIRD_SINGULAR_OBJECT', 'him'],
+  ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'his'],
+  ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'his'],
+  ['THIRD_SINGULAR_REFLEXIVE', 'himself']
+]
+
+const neutralPronouns = [
+  ['THIRD_SINGULAR_SUBJECT', 'they'],
+  ['THIRD_SINGULAR_OBJECT', 'them'],
+  ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'their'],
+  ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'theirs'],
+  ['THIRD_SINGULAR_REFLEXIVE', 'themself']
+]
+
 const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
 
-  const pronouns: Map<string, string> = new Map([
+  const allPronouns: Map<string, string> = new Map([
     ['REPORTEE_NAME', name],
     ['REPORTEE_NAME_POSSESSIVE', name.slice(-1) == 's' ? `${name}'` : `${name}'s`],
     ['FIRST_SINGULAR_SUBJECT', 'I'],
@@ -32,38 +56,21 @@ const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
     ['THIRD_PLURAL_REFLEXIVE', 'themselves']
   ])
 
-  let updates: string[][] = []
+  const genderedPronouns: string[][] = []
 
-  if (gender === 'female') {
-    updates.push(
-      ['THIRD_SINGULAR_SUBJECT', 'she'],
-      ['THIRD_SINGULAR_OBJECT', 'her'],
-      ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'her'],
-      ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'hers'],
-      ['THIRD_SINGULAR_REFLEXIVE', 'herself']
-    )
-  } else if (gender === 'male') {
-    updates.push(
-      ['THIRD_SINGULAR_SUBJECT', 'he'],
-      ['THIRD_SINGULAR_OBJECT', 'him'],
-      ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'his'],
-      ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'his'],
-      ['THIRD_SINGULAR_REFLEXIVE', 'himself']
-    )
-  } else {
-    // very reductive, must fix!
-    updates.push(
-      ['THIRD_SINGULAR_SUBJECT', 'they'],
-      ['THIRD_SINGULAR_OBJECT', 'them'],
-      ['THIRD_SINGULAR_DEPENDENT-POSSESSIVE', 'their'],
-      ['THIRD_SINGULAR_INDEPENDENT-POSSESSIVE', 'theirs'],
-      ['THIRD_SINGULAR_REFLEXIVE', 'themself']
-    )
+  switch (gender) {
+    case 'female':
+      genderedPronouns.push(...femalePronouns)
+      break
+    case 'male':
+      genderedPronouns.push(...malePronouns)
+      break
+    default: genderedPronouns.push(...neutralPronouns) // very reductive, must fix!
   }
 
-  updates.forEach(([k, v]) => pronouns.set(k, v))
+  genderedPronouns.forEach(([k, v]) => allPronouns.set(k, v))
   
-  return pronouns
+  return allPronouns
 }
 
 export default getPronouns
