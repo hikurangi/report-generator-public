@@ -1,10 +1,10 @@
 import getPronouns from '../model/pronouns'
-import { CompileInputs, ReportNode } from '../types'
+import { CompileInputs } from '../types'
 
-const pronounPattern = /\{\{(.*?)\}\}/g
+const pronounPattern = /\{\{(.*?)\}\}/g // {{BLAH-BLAH_BLAH}}
 
-const compile = ({ text, reportee } : CompileInputs) : string => {
-  const pronouns: Map<string, string> = getPronouns(reportee) 
+const compile = ({ text, subject } : CompileInputs) : string => {
+  const pronouns: Map<string, string> = getPronouns(subject) 
   
   let outputText = ''
   

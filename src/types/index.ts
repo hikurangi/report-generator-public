@@ -6,21 +6,28 @@ interface ReportNode {
   sections?: ReportNode[]
 }
 
-interface Reportee {
+interface Subject {
   name: string,
   gender: string
 }
 
 interface CompileInputs {
   text: string,
-  reportee: Reportee
+  subject: Subject
 }
 
-// type Errorable<T> = T | Error;
-// type Nullable<T> = T | null;
+interface TraverseInputs {
+  report: ReportNode,
+  // could just be accessed globally rather than specifically injected, but this is 'more pure'
+  subject: Subject
+}
+
+type ReportKVPair = [string, string | ReportNode[]]
 
 export {
   CompileInputs,
-  Reportee,
-  ReportNode
+  Subject,
+  ReportKVPair,
+  ReportNode,
+  TraverseInputs
 }
