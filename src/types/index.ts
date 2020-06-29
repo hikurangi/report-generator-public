@@ -12,7 +12,7 @@ interface Reportee {
 }
 
 interface CompileInputs {
-  report: ReportNode,
+  text: string,
   reportee: Reportee
 }
 
