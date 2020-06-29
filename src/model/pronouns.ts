@@ -1,4 +1,4 @@
-import { Reportee } from '../types'
+import { Subject } from '../types'
 
 const femalePronouns = [
   ['THIRD_SINGULAR_SUBJECT', 'she'],
@@ -24,11 +24,11 @@ const neutralPronouns = [
   ['THIRD_SINGULAR_REFLEXIVE', 'themself']
 ]
 
-const getPronouns = ({ gender, name } : Reportee): Map<string, string> => {
+const getPronouns = ({ gender, name } : Subject): Map<string, string> => {
 
   const allPronouns: Map<string, string> = new Map([
-    ['REPORTEE_NAME', name],
-    ['REPORTEE_NAME_POSSESSIVE', name.slice(-1) == 's' ? `${name}'` : `${name}'s`],
+    ['SUBJECT_NAME', name],
+    ['SUBJECT_NAME_POSSESSIVE', name.slice(-1) == 's' ? `${name}'` : `${name}'s`],
     ['FIRST_SINGULAR_SUBJECT', 'I'],
     ['FIRST_SINGULAR_OBJECT', 'me'],
     ['FIRST_SINGULAR_DEPENDENT-POSSESSIVE', 'my'],
