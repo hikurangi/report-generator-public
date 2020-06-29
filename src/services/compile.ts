@@ -16,6 +16,7 @@ const compile = ({ text, reportee } : CompileInputs) : string => {
         throw new Error(`Could not find a matching pattern for: "${pronounCandidate}"`)
       }
 
+      // double-spaces or other non-word chars after a full-stop will break this 
       const doesMatchStartASentence = text.substring(pronounOffset - 2, pronounOffset) === '. '
       
       // the use of the cast <string> below is a workaround, given the following quirk of ts' Map.get():
