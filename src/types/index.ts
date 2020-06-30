@@ -22,6 +22,11 @@ interface TraverseInputs {
   subject: Subject
 }
 
+// should be in separate place?
+interface ReportDOMNode extends ReportNode {
+  key?: string
+}
+
 type ReportKVPair = [string, string | ReportNode[]]
 
 export {
@@ -29,5 +34,6 @@ export {
   Subject,
   ReportKVPair,
   ReportNode,
+  ReportDOMNode,
   TraverseInputs
 }
