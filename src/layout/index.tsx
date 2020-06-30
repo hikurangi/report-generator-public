@@ -1,7 +1,8 @@
-import * as React from 'react'
-import Nav from '../nav'
-import Main from '../Main'
 import CSS from "csstype"
+import * as React from 'react'
+
+import Main from '../Main'
+import Nav from '../nav'
 
 const header: CSS.Properties = {
   margin: "50px auto"
