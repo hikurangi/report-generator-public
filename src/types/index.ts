@@ -22,12 +22,12 @@ interface TraverseInputs {
   subject: Subject
 }
 
-type ReportKVPair = [string, string | ReportNode[]]
+type ReportKeyAndNode = [string, string | ReportNode[]]
 
 export {
   CompileInputs,
   Subject,
-  ReportKVPair,
+  ReportKeyAndNode,
   ReportNode,
   TraverseInputs
 }

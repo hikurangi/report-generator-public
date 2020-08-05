@@ -1,9 +1,9 @@
-import { TraverseInputs, ReportKVPair, ReportNode } from '../types'
+import { TraverseInputs, ReportKeyAndNode, ReportNode } from '../types'
 import compile from './compile'
 
 const traverse = ({ report, subject }: TraverseInputs): ReportNode => {
 
-  return Object.entries(report).reduce((currentNode: ReportNode, [key, value]: ReportKVPair) => {
+  return Object.entries(report).reduce((currentNode: ReportNode, [key, value]: ReportKeyAndNode) => {
 
       let updateValue = value
 
