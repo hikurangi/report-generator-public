@@ -20,6 +20,7 @@ const traverse = ({ report, subject }: TraverseInputs): ReportNode => {
 
       return Object.assign(currentNode, { [key]: updateValue })
     }, {
+      // these blank defaults are required for the type and will be overwritten
       id: '',
       title: ''
     })
