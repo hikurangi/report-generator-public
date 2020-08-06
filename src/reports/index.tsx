@@ -10,11 +10,12 @@ const processedSampleReport: ReportNode = traverse({
   subject: { name: 'Homer', gender: 'male' }
 })
 
-const Reports = (): JSX.Element => (
+const Reports = ({ reportNode = processedSampleReport }): JSX.Element => (
   <>
-    <h1>Reports</h1>
     <div>
-      <h2>Report 1</h2>
+      <h3>{reportNode.title}</h3>
+      <p><em>{reportNode.body}</em></p>
+      {reportNode.sections?.map(section => <Reports reportNode={section}/>)}
     </div>
   </>
 )
